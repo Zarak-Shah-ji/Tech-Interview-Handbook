@@ -22,6 +22,13 @@
 	 	d. Early termination
    		e. Minimize work inside loops
      	f. Be lazy
+
+      
+# How to optimize space complexity
+	1. Changing data in-place/ overwriting input data (overwrite input or mutate it and use as hash table)
+ 	2. Change Data Structure
+ 	
+
        
 
 
