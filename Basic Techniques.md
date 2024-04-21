@@ -1,4 +1,4 @@
-	How to find solutions to coding interview problems
+# How to find solutions to coding interview problems
 	
 	
 	
@@ -9,7 +9,7 @@
 	5. Apply common data structures and algorithms at the problem 
 	
 	
-	<h> How to optimize your approach or solution </h>
+# How to optimize your approach or solution 
 	
  
 	1. Identify the Best Theoretical Time (BTTC) Complexity of the solution
