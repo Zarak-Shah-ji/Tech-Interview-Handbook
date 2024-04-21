@@ -44,7 +44,7 @@ Corner cases
 
 Patterns  
         <b> 
-        1. Sliding window: 
+1. Sliding window: 
                 Def: In a sliding window, the two pointers usually move in the same direction will never overtake each other. 
                 This ensures that each value is only visited at most twice and the time complexity is still O(n).
                 Type of qs: Subarray/ substring
@@ -77,5 +77,39 @@ Patterns
                                 
                                     return d
  </b>
-             
+    2. Two Pointers : 
+                Def: General version of sliding window where the pointers can cross each other and can be on different arrays.
+                Qs Type: 2 arrays etc
+                
+3. Traversing from the right:
+   
+                Def: traverse the array starting from the right instead of the conventional approach of from the left.
+                Examples: Daily Temperatures, Number of Visible People in a Queue
+
+5. Sorting the array:
+                Is the array sorted or partially sorted? If it is, some form of binary search should be possible.
+                This also usually means that the interviewer is looking for a solution that is faster than O(n).
+                Can you sort the array? Sometimes sorting the array first may significantly simplify the problem.
+                e.g Non-overlapping Intervals
+<b>
+                General pattern for greedy approach based Interval questions, where you sort the array first:
+   
+                        Arr.sort() # sorts array in-place
+                        Prev = 0
+                        for i in range(1,arr.len()):
+                        	Curr = arr[i]
+                        	If overlap(prev,curr):
+                        		//do business logic
+                        	Prev = curr	
+                        Return res
+
+                        def overlap(i2, i1):
+                           //if the start of the second interval is greater or equal than the end of the first interval they dont overlap// > or >= depends on the exact problem//
+                           for example in some cases [4,6] [6,10] are considered overlapping, in some not
+                        	if i2[0] >= i1[1]:
+                                     Return false
+                                Return True
+
+   Obviously this would not work if the order of array elements need to be preserved. 
+  </b>              
              
