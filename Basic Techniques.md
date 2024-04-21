@@ -17,11 +17,11 @@
  	3. Try different data structures
   	4. Identify redundant work - 
    		a. Don't check conditions unnecessarily
-     		b. Mind the order of checks
-       		c. Don't invoke methods unnecessarily
+     	b. Mind the order of checks
+       	c. Don't invoke methods unnecessarily
 	 	d. Early termination
    		e. Minimize work inside loops
-     		f. Be lazy
+     	f. Be lazy
        
 
 
