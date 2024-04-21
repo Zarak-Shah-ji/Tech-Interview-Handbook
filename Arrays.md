@@ -104,7 +104,8 @@ Patterns
                         Return res
 
                         def overlap(i2, i1):
-                           //if the start of the second interval is greater or equal than the end of the first interval they dont overlap// > or >= depends on the exact problem//
+                           //if the start of the second interval is greater or equal than the end of the first interval they dont overlap
+                           // > or >= depends on the exact problem//
                            for example in some cases [4,6] [6,10] are considered overlapping, in some not
                         	if i2[0] >= i1[1]:
                                      Return false
@@ -112,4 +113,23 @@ Patterns
 
    Obviously this would not work if the order of array elements need to be preserved. 
   </b>              
-             
+
+   6.  Precomputation:
+
+                    For questions where summation or multiplication of a subarray is involved, pre-computation
+                    using hashing or a prefix/suffix sum/product might be useful.
+                    Examples: Product of Array Except Self, Minimum Size Subarray Sum, LeetCode questions tagged "prefix-sum"
+          
+      
+   8. Index as a hash key:
+
+                      If you are given a sequence and the interviewer asks for O(1) space,
+                      it might be possible to use the array itself as a hash table.
+                      For example, if the array only has values from 1 to N, where N is the length of the array,
+                      negate the value at that index (minus one) to indicate presence of that number.
+                      Examples: First Missing Positive, Daily Temperatures
+   10. Traversing the array more than once:
+      
+                      This might be obvious, but traversing the array twice/thrice (as long as fewer than n times) is still O(n).
+                      Sometimes traversing the array more than once can help you solve the problem while keeping the time complexity to O(n).
+                      
