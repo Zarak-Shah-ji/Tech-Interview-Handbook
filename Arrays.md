@@ -11,4 +11,71 @@ Disadvantages:
         1. Addition / Removal from middle is slow as all elements need to be shifted
         2. In C++ or other langs array size is fixed and need to create new array if array increases which takes O(n) time
 
+ 
+Common Terms
+
+        1. Subarray: A range of contiguous values within an array e.g [2,3,6,1,5,4] [3,6,1] is a subarray while [3,1,5] is not
+        2. Subsequence: A sequence that can be derived from the given sequence by deleting some or no elements 
+           without changing the order of the remaining elements e.g  [2,3,6,1,5,4] [3,1,5] is a subsequence and [3, 5, 1] is not
+
+Time Complexity
+
+        Access - O(1)
+        Search  - O(n)
+        Search sorted array - O(log(n))
   ![image](https://github.com/Zarak-Shah-ji/Tech-Interview-Handbook/assets/47606946/6139cc07-da1f-4f80-b949-e59ef8d1b0f2)
+
+Things to Look out during interviews
+
+        1. Clarify if there are duplicate values in the array. Would the presence of duplicate values affect the answer?
+           Does it make the question simpler or harder ?
+        2. When using an index to iterate through the array, be careful not to go out of bounds
+        3. Be mindful about slicing or concatenating arrays in your code. Slicing and concatenating arr takes O(n) time. 
+           Use start and end indices to demarcate a subbarray/ range where possible
+
+Corner cases
+
+        1. Empty Sequence
+        2. Sequence with 1 or 2 elements only
+        3. Sequence with repeated elements
+        4. Duplicated values in the sequence
+
+         String is an array of characters, thus most techniques below will apply to string problems
+
+Patterns  
+        <b> 
+        1. Sliding window: 
+                Def: In a sliding window, the two pointers usually move in the same direction will never overtake each other. 
+                This ensures that each value is only visited at most twice and the time complexity is still O(n).
+                Type of qs: Subarray/ substring
+                
+                Template:
+                
+                             def findSubstring(s: str) -> int:
+                                    map = [0] * 128
+                                    counter = 0  # check whether the substring is valid
+                                    begin, end = 0, 0  # two pointers, one point to tail and one  head
+                                    d = 0  # the length of substring
+                                
+                                    while end < len(s):
+                                
+                                        if map[ord(s[end])]  -- ?:
+                                            counter +/- = 1 
+                                        map[ord(s[end])] +/-= 1
+                                        end += 1
+                                
+                                        while counter == counter condition:
+                                            # Update d here if finding minimum
+                                            # increase begin to make it invalid/valid again
+                                            if map[ord(s[begin])] ==  ? 
+                                                counter + / - = 1
+                                            map[ord(s[begin])] += 1
+                                            begin += 1
+                                            d=max(d, end-begin)  # or cond given in qs
+                                
+                                        # Update d here outside inner while if finding maximum
+                                
+                                    return d
+ </b>
+             
+             
