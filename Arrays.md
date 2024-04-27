@@ -80,6 +80,7 @@ Patterns
     2. Two Pointers : 
                 Def: General version of sliding window where the pointers can cross each other and can be on different arrays.
                 Qs Type: 2 arrays etc
+                questions : Container with most water, Merge two sorted arrays
                 
 3. Traversing from the right:
    
