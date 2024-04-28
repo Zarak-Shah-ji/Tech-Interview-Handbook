@@ -59,7 +59,7 @@ Patterns
 
                                     while end < len(s): to expand the window 
                                        // if curr char already encountered
-                                        if map[ord(s[end])]  > 0 or some :
+                                        if map[ord(s[end])]  > / = / < 0 or some cond:
                                             counter +/- = 1 
                                         map[ord(s[end])] +/-= 1
                                         end += 1
