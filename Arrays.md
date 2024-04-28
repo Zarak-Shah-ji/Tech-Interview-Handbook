@@ -54,23 +54,23 @@ Patterns
                              def findSubstring(s: str) -> int:
                                     map = [0] * 128
                                     counter = 0  # check whether the substring is valid
-                                    begin, end = 0, 0  # two pointers, one point to tail and one  head
+                                    begin, end = 0, 0  # two pointers, length of sliding window
                                     d = 0  # the length of substring
-                                
-                                    while end < len(s):
-                                
-                                        if map[ord(s[end])]  -- ?:
+
+                                    while end < len(s): to expand the window 
+                                       // if curr char already encountered
+                                        if map[ord(s[end])]  > 0 or some :
                                             counter +/- = 1 
                                         map[ord(s[end])] +/-= 1
                                         end += 1
                                 
-                                        while counter == counter condition:
+                                        while counter  > 0: means we have duplicates in curr window 
                                             # Update d here if finding minimum
-                                            # increase begin to make it invalid/valid again
-                                            if map[ord(s[begin])] ==  ? 
+                                            # increase begin to make curr window invalid/valid again
+                                            if map[ord(s[begin])] > 1: if true we have dups in curr window so decrement counter 
                                                 counter + / - = 1
                                             map[ord(s[begin])] += 1
-                                            begin += 1
+                                            begin += 1 // moved forward to shrink the window until there are no more 
                                             d=max(d, end-begin)  # or cond given in qs
                                 
                                         # Update d here outside inner while if finding maximum
