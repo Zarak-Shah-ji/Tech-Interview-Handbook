@@ -31,7 +31,7 @@ Q _ M _ H ---- O(nlog(n))
 
 The time complexity is almost definitely O(nlog(n))). Bonus points if you can name the sort. In Python, it's Timsort. time O nlogn spae O(n)
 
-
+ 
 # Corner cases
 
 Empty sequences
