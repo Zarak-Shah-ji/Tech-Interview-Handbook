@@ -29,7 +29,7 @@ Q _ M _ H ---- O(nlog(n))
 
 # Interview tips
 
-The time complexity is almost definitely O(nlog(n))). Bonus points if you can name the sort. In Python, it's Timsort. time O nlogn spae O(n)
+The time complexity is almost definitely O(nlog(n))). Bonus points if you can name the sort. In Python, it's Timsort. time O(nlog(n)) spae O(n)
 
  
 # Corner cases
