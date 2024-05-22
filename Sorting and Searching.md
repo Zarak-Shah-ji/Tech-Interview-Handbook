@@ -33,7 +33,7 @@ The time complexity is almost definitely O(nlog(n))). Bonus points if you can na
 
  
 # Corner cases
-
+ 
 Empty sequences
 Sequence with one element
 Sequence wit 2 elements
