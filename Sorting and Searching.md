@@ -24,7 +24,7 @@ Binary search	O(log(n))
 
 Learning trick:
 B _ I _ S --- O(n2)
-Q _ M _ H ---- O(nlog(n))
+Q _ M _ H ---- O(nlog(n)) 
 
 
 # Interview tips
