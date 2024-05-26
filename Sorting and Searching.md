@@ -39,7 +39,7 @@ Sequence with one element
 Sequence wit 2 elements
 Sequence containing duplicate elements
 
-#Techniques
+#Techniques 
 
 Sorted Inputs : 
 When sequence sorted any order asc or desc , try using binary search first
