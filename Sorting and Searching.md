@@ -18,7 +18,7 @@ Counting sort	O(n + k)	O(k)
 
 Radix sort	O(nk)	O(n + k)
 
-Algorithm	Big-O
+Algorithm	Big-O 
 
 Binary search	O(log(n))
 
