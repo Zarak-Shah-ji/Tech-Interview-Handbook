@@ -32,3 +32,9 @@ Often in Python list is used as Queue during interview, However, note that the d
   1. Empty queue
   2. Queue with one item
   3. Queue with two item
+
+# Imp:
+
+    1. Stacks push similar to queue's enqueue function
+    2. Stacks pop  similar to queue's dequeue function
+    3. Both of them can be implemented as array or linked list
