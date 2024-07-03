@@ -7,7 +7,7 @@ A tree is an undirected and connected acyclic graph. There are no cycles or loop
 
 Trees are commonly used to represent hierarchical data, e.g. file systems, JSON, and HTML documents
 
-
+ 
 # Common terms
 
   1. Neighbor - Parent or child of a node
