@@ -4,7 +4,7 @@ The common graph representations are:
  
 Adjacency matrix
 Adjacency list
-Hash table of hash tables
+Hash table of hash tables 
 
 Note: Using a hash table of hash tables would be the simplest approach during algorithm interviews. 
 It will be rare that you have to use an adjacency matrix or list for graph questions during interviews.
