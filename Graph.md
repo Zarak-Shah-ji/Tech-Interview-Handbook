@@ -1,7 +1,7 @@
 # Graph representations
 You can be given a list of edges and you have to build your own graph from the edges so that you can perform a traversal on them. 
 The common graph representations are:
-
+ 
 Adjacency matrix
 Adjacency list
 Hash table of hash tables
