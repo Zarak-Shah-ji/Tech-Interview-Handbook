@@ -16,7 +16,7 @@ It will be rare that you have to use an adjacency matrix or list for graph quest
     2. It is important that you be familiar with traversing a 2D matrix
     3. When traversing the matrix, always ensure that your current position is within the boundary of the matrix and has not been visited before.
 
-# Time Complexity
+# Time Complexity 
   |V| is the no of vertices while |E| is the no of edges
 
 Depth-first search	        O(|V| + |E|)
