@@ -47,4 +47,4 @@ This repository is licensed under the [MIT License](LICENSE).
 
 ---
 
-Thank you for choosing the Tech Interview Handbook for your technical interview preparation. We wish you the best of luck in your coding journey! 🚀
+
