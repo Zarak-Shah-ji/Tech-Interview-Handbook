@@ -2,7 +2,7 @@
 
 Welcome to the Tech Interview Handbook GitHub repository!
 
-This repository is dedicated to helping you track your progress as you practice coding questions and learn various hacky patterns commonly encountered in technical interviews. Whether you're preparing for software engineering interviews at top tech companies or just looking to improve your coding skills, this handbook is designed to be a valuable resource for your journey.
+This repository is dedicated to helping you and me track progress as doing practice coding questions and learn various patterns commonly encountered in technical interviews. Whether you're preparing for software engineering interviews at top tech companies or just looking to improve your coding skills, this handbook is designed to be a valuable resource along the journey.
 
 ## Purpose
 
@@ -25,13 +25,11 @@ To get started with the Tech Interview Handbook, follow these steps:
 
 1. **Clone the Repository**: Clone this repository to your local machine using `git clone https://github.com/yourusername/tech-interview-handbook.git`.
 
-2. **Explore the Content**: Take some time to explore the provided resources, including coding questions and hacky patterns.
+2. **Explore the Content**: Take some time to explore the provided resources, including coding questions and intuitive patterns.
 
-3. **Track Your Progress**: Use the templates provided in the `progress` directory to track your progress as you solve coding questions and learn hacky patterns.
+3. **Contribute**: If you have coding questions, solutions, or hacky patterns that you'd like to share, feel free to contribute to the repository. Follow the contribution guidelines outlined in the `CONTRIBUTING.md` file.
 
-4. **Contribute**: If you have coding questions, solutions, or hacky patterns that you'd like to share, feel free to contribute to the repository. Follow the contribution guidelines outlined in the `CONTRIBUTING.md` file.
-
-5. **Stay Updated**: Check back regularly for updates and new content added to the repository.
+4. **Stay Updated**: Check back regularly for updates and new content added to the repository.
 
 ## Contribution Guidelines
 
