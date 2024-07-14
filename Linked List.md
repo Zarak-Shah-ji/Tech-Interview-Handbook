@@ -1,4 +1,4 @@
-
+ 
  # Advantages of LL
 
 Insertion and deletion of a node in the list (given its location) is O(1) whereas in arrays the following elements will have to be shifted.
