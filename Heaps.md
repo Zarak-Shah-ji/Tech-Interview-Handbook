@@ -15,7 +15,7 @@
 
       when insertions need to be interspersed with removals of the root node.
 
-
+ 
 
   # Implementations
 
