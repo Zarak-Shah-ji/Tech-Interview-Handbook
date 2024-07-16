@@ -3,7 +3,7 @@ You can be given a list of edges and you have to build your own graph from the e
 The common graph representations are:
  
 Adjacency matrix
-Adjacency list
+Adjacency list 
 Hash table of hash tables 
 
 Note: Using a hash table of hash tables would be the simplest approach during algorithm interviews. 
