@@ -12,7 +12,7 @@
       A heap is a useful data structure when it is necessary to repeatedly remove the object with the highest (or lowest) priority
 
         OR
-
+ 
       when insertions need to be interspersed with removals of the root node.
 
  
