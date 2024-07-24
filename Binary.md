@@ -25,4 +25,23 @@ Still atleast need to know to convert decimal to binary and vice versa
      6.      Divide by 2k                        num >> k
      7.      Check if no is power of 2           (num & num -1) == 0  or (num & (-num)) == num
      8.      Swapping two variables              num1 ^= num2; num2 ^= num1; num1 ^= num2
-    
+
+
+
+# Convert a number from Decimal to Binary form in Python
+
+
+    def decimal_to_binary(decimal_number):
+        # If the number is 0, return '0'
+        if decimal_number == 0:
+            return '0'
+        
+        binary_number = ''
+        
+        # Continue to divide the number by 2 and store the remainder
+        while decimal_number > 0:
+            remainder = decimal_number % 2
+            binary_number = str(remainder) + binary_number
+            decimal_number = decimal_number // 2
+        
+        return binary_number
