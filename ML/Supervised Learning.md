@@ -53,6 +53,9 @@ The MSE loss function penalizes the model for making large errors by squaring th
 
 
 # GRADIENT DESCENT:
+              ** θ ←− θ − α∇J(θ)**
+              g α ∈ R the learning rate
+              
 
     GOAL : gradient descent is to minimize the cost function, or the error between predicted and actual y. 
     HOW: requires two data points—a direction and a learning rate. 
@@ -67,6 +70,9 @@ The MSE loss function penalizes the model for making large errors by squaring th
     ![image](https://github.com/user-attachments/assets/081a1b51-c6af-42b4-b1a2-83ef11ed8ddd)
 
 
+  Likelihood: e likelihood of a model L(θ) given parameters θ is used to find the optimal
+parameters θ through maximizing the likelihood
+              
 
 
 
